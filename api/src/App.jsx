@@ -25,7 +25,7 @@ function BookCollection() {
   return (
     <>
       {books.map((book, index) => (
-        <div style={{border:"2px solid black", marginBottom:"10px",backgroundColor:"pink"}} key={index} className="book-item">
+        <div style={{border:"2px solid black", marginBottom:"10px",backgroundColor:"pink",fontFamily:"sans-serif"}} key={index} className="book-item">
           <h2 className="book-title">{book.title}</h2>
           <div className="book-details">
             <img src={book.imageLinks.smallThumbnail} alt={book.title} className="book-img" />
